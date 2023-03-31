@@ -16,5 +16,5 @@
 
 .menu::before,
 .menu > .center{
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import Matriz from './../../img/logo.svg';
+import "./styles.css";
 
 const Logo = () => (
   <img src={Matriz} alt="What she knows"/>
