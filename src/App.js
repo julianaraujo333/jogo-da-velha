@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from './objects/Card';
+import Player from './objects/Player';
 import Menu from './components/Header';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <Menu/>
       <Card/>
+      <Player player="o"/>
     </>
   );
 }
