@@ -1,14 +1,12 @@
 import React from 'react';
-import Card from './objects/Card';
-import Player from './objects/Player';
+import Hashtag from './components/Hashtag';
 import Menu from './components/Header';
 
 function App() {
   return (
     <>
       <Menu/>
-      <Card/>
-      <Player player="o"/>
+      <Hashtag/>
     </>
   );
 }
