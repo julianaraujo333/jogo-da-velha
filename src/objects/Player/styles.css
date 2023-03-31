@@ -2,3 +2,7 @@
   background: none;
   border: none;
 }
+
+.player img{
+  width: 42px;
+}
