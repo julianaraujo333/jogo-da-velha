@@ -1,14 +1,15 @@
 import React from 'react';
 import './App.css';
+import Input from './objects/Input';
+
 import Hashtag from './components/Hashtag';
 import Menu from './components/Header';
-import Label from './objects/Label';
 
 const App = () =>(
   <main className='app'>
     <Menu/>
     <Hashtag/>
-    <Label content="Mostrar eventos"/>
+    <Input id="show" content="Mostrar eventos" value="show"/>
   </main>
 );
 
